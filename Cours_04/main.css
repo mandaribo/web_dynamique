@@ -1,0 +1,31 @@
+:root{
+    background-color: rgb(248, 207, 238);
+    font-family: cursive;
+    text-align: center;
+}
+h1{
+    color: red;
+}
+h2{
+    color: rgb(29, 31, 122);
+}
+.pitbull{
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: rgb(218, 59, 191);
+}
+
+.seventeen_1{
+    border-style: double;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: rgb(197, 124, 14);
+}
+
+.seventeen_2{
+    border-style: dashed;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: rgb(14, 130, 197);
+}
