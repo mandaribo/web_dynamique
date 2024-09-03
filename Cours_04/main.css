@@ -1,14 +1,20 @@
 :root{
     background-color: rgb(248, 207, 238);
     font-family: cursive;
-    text-align: center;
 }
 h1{
     color: red;
+    text-align: center;
 }
 h2{
     color: rgb(29, 31, 122);
+    text-align: center;
 }
+
+ul{
+    list-style-type: circle;
+}
+
 .pitbull{
     border-style: solid;
     border-radius: 50%;
@@ -28,4 +34,8 @@ h2{
     border-radius: 20px;
     border-width: 10px;
     border-color: rgb(14, 130, 197);
+}
+
+#bow2{
+    transform: scaleX(-1);
 }
