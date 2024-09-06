@@ -18,7 +18,7 @@ li{
     font-size: large;
 }
 
-#menu a:hover{
+#menu a:hover, .active{
     background-color: rgb(204, 218, 230);
     padding: 6px;
     border-radius: 5px;
