@@ -1,3 +1,18 @@
 :root{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #bdcae2;
+}
+
+a{
+    color: rgb(56, 5, 18);
+    font-weight: 600;
+}
+
+header a{
+    color: darkblue;
+    font-size: larger;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(211, 223, 223);
+    border-radius: 10%;
 }

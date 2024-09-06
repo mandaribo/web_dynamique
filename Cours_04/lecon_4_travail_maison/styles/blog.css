@@ -13,6 +13,18 @@ text-align: center;
 margin: 3px;
 }
 
+td{
+padding: 5px;
+}
+
 .leader{
 list-style-type: disc;
+}
+
+header a{
+    font-size: larger;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(211, 223, 223);
+    border-radius: 10%;
 }

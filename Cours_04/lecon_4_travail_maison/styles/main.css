@@ -1,3 +1,20 @@
 :root{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F7CACA;
+}
+
+a{
+    color: darkblue;
+}
+
+h1{
+    color: indigo;
+}
+
+header a{
+    font-size: larger;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(211, 223, 223);
+    border-radius: 10%;
 }
