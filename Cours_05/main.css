@@ -9,11 +9,17 @@ li{
     display: flex;
     justify-content: space-around;
     background-color: aliceblue;
-    
+    padding: 10px;
 }
 
 #menu a{
     color: rgb(84, 21, 92);
     text-decoration: none;
     font-size: large;
+}
+
+#menu a:hover{
+    background-color: rgb(204, 218, 230);
+    padding: 6px;
+    border-radius: 5px;
 }
