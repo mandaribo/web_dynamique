@@ -1,5 +1,6 @@
 :root{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/Exercice_3/images/background.jpg);
 }
 
 ul{
@@ -13,12 +14,15 @@ li{
 /*header*/
 .menu ul{
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-around;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
 }
 
 .icon{
@@ -30,11 +34,12 @@ nav{
     display: flex;
     margin: 10px;
     padding: 5px;
-    align-items: center;
+    flex-flow: row nowrap;
+    
 }
 
 #nom{
-    font-size: 2rem;
+    font-size: 1.3em;
 }
 /*header*/
 
@@ -42,12 +47,13 @@ nav{
 footer{
     background-color: rgb(22, 22, 88);
     padding: 5px;
+    margin: -6px;
     display: flex;
     justify-content: space-between;
 }
 
 .point{
-    color:rgb(207, 207, 255);
+    color:rgb(78, 199, 255);
     font-size: 1.5rem;
 }
 
@@ -56,6 +62,24 @@ footer{
 }
 /*footer*/
 
+h1{
+    color: rgb(78, 199, 255);
+}
 
+p{
+    color: white;
+}
 
+button{
+    margin: 3px;
+    padding: 15px;
+    font-size: 1.3em;
+    background-color: rgb(78, 199, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.page{
+    padding: 100px 5px 100px 5px;
+}
 
