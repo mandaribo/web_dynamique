@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion des Inscriptions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Gestion des Inscriptions</h1>
+<a href="index.html">Formulaire d'inscription</a>
+
+<div id="userCount">Nombre d'utilisateurs inscrits : 0</div>
+
+<table id="dataTable">
+    <thead>
+        <tr>
+            <th>Prénom</th>
+            <th>Nom</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody >
+        <!-- Les données seront ajoutées ici -->
+    </tbody>
+</table>
+
+<!-- Champ de recherche -->
+<h2>Recherche d'email par prénom</h2>
+<label for="searchFirstName">Prénom:</label>
+<input type="text" id="searchFirstName">
+
+<button id="searchEmail">Chercher</button>
+<div id="searchResults"></div>
+
+<script src="gestion.js"> </script>
+
+
+</body>
+</html>

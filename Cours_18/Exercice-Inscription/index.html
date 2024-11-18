@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <a href="gestion.html">Gestion des inscription</a>
+    <form id="inscriptionForm">
+        <label >Prénom</label><br>
+        <input type="text" id="firstName" ><br>
+        <label >Nom</label><br>
+        <input type="text" id="lastName" ><br>
+        <label >Courriel</label><br>
+        <input type="text" id="email" ><br>
+        <label >Mot de passe</label><br>
+        <input type="password" id="password" ><br>
+        <label >Confirmer votre mot de passe</label><br>
+        <input type="password" id="confirmPassword"  ><br>
+        <input type="submit" value="S'inscrire">
+        <div id="errorMessages"></div> <!-- Section pour les messages d'erreur -->
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
