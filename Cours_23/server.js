@@ -9,7 +9,7 @@ const connectDB = require("./config/connectDB")
 connectDB()
 
 //utiliser les routes
-const routeUser =require("./routes/userRoutes")
+const routeUser = require("./routes/userRoutes")
 app.use("/api", routeUser);
 
 app.listen(port, (err)=>{
